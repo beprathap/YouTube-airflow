@@ -1,13 +1,13 @@
 To execute the code
 
-> python3 -m venv airflow-venv
-> pip3 install apache-airflow
-> airflow db migrate
-> airflow web server -p 8080 & airflow scheduler &
+python3 -m venv airflow-venv
+pip3 install apache-airflow
+airflow db migrate
+airflow web server -p 8080 & airflow scheduler &
 
 Additional Commands
-> Airflow users list
-> airflow users delete -u <user-name>
+  Airflow users list
+  airflow users delete -u <user-name>
 
 Kill servers running on port:
   sudo lsof -i : <port_num>
