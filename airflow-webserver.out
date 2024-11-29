@@ -1,0 +1,1 @@
+[2024-11-26T15:10:21.206-0600] {webserver_command.py:258} ERROR - [0 / 0] Some workers seem to have died and gunicorn did not restart them as expected

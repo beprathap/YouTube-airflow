@@ -1,0 +1,2 @@
+2024-11-26 15:07:22,724 WARNING - Could not import pandas. Holidays will not be considered.
+2024-11-26 15:07:22,726 INFO - Loaded executor: SequentialExecutor
